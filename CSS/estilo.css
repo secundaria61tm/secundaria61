@@ -181,3 +181,756 @@ body{
     margin: 0;
     line-height: 1.5;
 }
+
+/*==================================================
+                NUESTRA ESCUELA
+==================================================*/
+.contenido-pagina h1{
+
+    text-align:center;
+
+    font-size:42px;
+
+    color:#7b2f1c;
+    text-shadow: -5px 2px 8px rgba(149, 149, 209, 0.8);
+
+}
+
+.introduccion{
+
+    width:80%;
+
+    margin:30px auto;
+
+    text-align:center;
+
+    line-height:1.8;
+
+    font-size:20px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 10, 200);
+
+}
+
+.mision-vision{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:40px;
+
+    margin-top:60px;
+
+    flex-wrap:wrap;
+
+}
+
+.tarjeta-info{
+
+    width:420px;
+
+    background:rgb(125, 167, 137);
+
+    padding:30px;
+
+    border-radius:18px;
+
+    box-shadow:0px 10px 25px rgba(0,0,0,.15);
+
+}
+
+.tarjeta-info h2{
+
+    text-align:center;
+
+    color:#93492f;
+
+    margin-bottom:20px;
+
+}
+
+.tarjeta-info p{
+
+    text-align:justify;
+
+    line-height:1.8;
+
+}
+
+/* ============================
+   BANNER DE LA PAGINA ESCUELA
+============================ */
+
+.banner-escuela{
+
+    position:relative;
+
+}
+
+.banner-escuela img{
+
+    width:100%;
+
+    height:420px;
+
+    object-fit:cover;
+
+    border-radius:20px;
+
+}
+
+.titulo-banner{
+
+    position:absolute;
+
+    left:70px;
+
+    top:50%;
+
+    transform:translateY(-50%);
+
+    color:white;
+
+}
+
+.titulo-banner h1{
+
+    font-size:55px;
+
+    margin-bottom:15px;
+
+    text-shadow:3px 3px 10px black;
+
+}
+
+.titulo-banner p{
+
+    font-size:22px;
+
+    width:500px;
+
+    text-shadow:2px 2px 8px black;
+
+}
+
+.banner-escuela::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background:rgba(0,0,0,.35);
+
+    border-radius:20px;
+
+}
+
+.titulo-banner{
+
+    position:absolute;
+
+    z-index:2;
+
+}
+
+    .volver{
+
+    display:inline-block;
+
+    margin:30px 0 10px 40px;
+
+    padding:12px 25px;
+
+    background:#8B4B30;
+
+    color:white;
+
+    text-decoration:none;
+
+    border-radius:8px;
+
+    font-weight:bold;
+
+    transition:.3s;
+
+}
+
+.volver:hover{
+
+    background:#6d3a26;
+
+}
+
+/*==================================================
+                    AVISOS
+==================================================*/
+
+.avisos {
+    width: 85%;
+    margin: 50px auto;
+}
+
+.titulo-banner {
+    position: absolute;
+    z-index: 2;
+}
+
+.volver {
+    display: inline-block;
+
+    margin: 30px 0 10px 40px;
+    padding: 12px 25px;
+
+    background: #dbd5d5;
+    color: rgb(0, 0, 0);
+
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+.volver:hover {
+    background: #6d3a26;
+}
+
+.aviso {
+    background-color: rgb(255, 254, 254);
+    color: #222;
+
+    border-left: 8px solid #8B4B30;
+
+    padding: 25px;
+    margin-bottom: 30px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+
+    transition: 0.3s;
+}
+
+.aviso:hover {
+    transform: translateY(-6px);
+
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.20);
+}
+
+.aviso h2 {
+    color: #8B4B30;
+
+    margin-top: 0;
+    margin-bottom: 10px;
+
+    text-shadow: none;
+}
+
+.fecha {
+    color: #555;
+
+    font-size: 15px;
+    margin-bottom: 18px;
+
+    font-style: italic;
+}
+
+.aviso p {
+    color: #000000;
+
+    text-align: justify;
+    line-height: 1.8;
+}
+
+/*==================================================
+                    CONTACTO
+==================================================*/
+
+.pagina-contacto {
+    width: 90%;
+    max-width: 1200px;
+
+    margin: 30px auto 70px;
+}
+
+.pagina-contacto > h1 {
+    margin-bottom: 15px;
+
+    color: #7B2F1C;
+    font-size: 42px;
+    text-align: center;
+
+    text-shadow: none;
+}
+
+.introduccion-contacto {
+    max-width: 850px;
+
+    margin: 0 auto 45px;
+
+    color: #333333;
+    font-size: 19px;
+    line-height: 1.7;
+    text-align: center;
+}
+
+
+/*==================================================
+                TARJETAS DE CONTACTO
+==================================================*/
+
+.datos-contacto {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 24px;
+}
+
+.tarjeta-contacto {
+    padding: 30px 22px;
+
+    background-color: #FFFFFF;
+    color: #222222;
+
+    text-align: center;
+
+    border-radius: 16px;
+
+    box-shadow:
+        0 8px 22px rgba(0, 0, 0, 0.13);
+
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
+}
+
+.tarjeta-contacto:hover {
+    transform: translateY(-6px);
+
+    box-shadow:
+        0 15px 30px rgba(0, 0, 0, 0.20);
+}
+
+.icono-contacto {
+    display: block;
+
+    margin-bottom: 15px;
+
+    font-size: 45px;
+}
+
+.tarjeta-contacto h2 {
+    margin: 0 0 15px;
+
+    color: #8B4B30;
+    font-size: 23px;
+}
+
+.tarjeta-contacto p {
+    margin: 0 0 12px;
+
+    color: #333333;
+    line-height: 1.6;
+}
+
+.tarjeta-contacto a {
+    color: #7B321F;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.tarjeta-contacto a:hover {
+    text-decoration: underline;
+}
+
+.detalle-contacto {
+    font-size: 14px;
+    color: #666666;
+}
+
+
+/*==================================================
+                BOTÓN DE YOUTUBE
+==================================================*/
+
+.boton-youtube {
+    display: inline-block;
+
+    margin-top: 10px;
+    padding: 11px 20px;
+
+    background-color: #B42318;
+    color: #FFFFFF !important;
+
+    border-radius: 8px;
+
+    text-decoration: none !important;
+
+    transition:
+        background-color 0.25s ease,
+        transform 0.25s ease;
+}
+
+.boton-youtube:hover {
+    background-color: #871A13;
+
+    transform: translateY(-2px);
+}
+
+
+/*==================================================
+            CONTACTO EN TABLETAS
+==================================================*/
+
+@media (max-width: 1000px) {
+
+    .datos-contacto {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+/*==================================================
+            CONTACTO EN CELULARES
+==================================================*/
+
+@media (max-width: 600px) {
+
+    .pagina-contacto {
+        width: 92%;
+    }
+
+    .pagina-contacto > h1 {
+        font-size: 34px;
+    }
+
+    .datos-contacto {
+        grid-template-columns: 1fr;
+    }
+
+    .tarjeta-contacto {
+        padding: 26px 20px;
+    }
+
+}
+
+/*==================================================
+                    DOCUMENTOS
+==================================================*/
+
+.pagina-documentos {
+    width: 90%;
+    max-width: 1100px;
+
+    margin: 30px auto 70px;
+}
+
+.pagina-documentos > h1 {
+    margin-bottom: 15px;
+
+    color: #7B2F1C;
+    font-size: 42px;
+    text-align: center;
+
+    text-shadow: none;
+}
+
+.introduccion-documentos {
+    max-width: 850px;
+
+    margin: 0 auto 45px;
+
+    color: #333333;
+    font-size: 19px;
+    line-height: 1.7;
+    text-align: center;
+}
+
+
+/*==================================================
+                LISTA DE DOCUMENTOS
+==================================================*/
+
+.lista-documentos {
+    display: flex;
+    flex-direction: column;
+
+    gap: 22px;
+}
+
+.tarjeta-documento {
+    display: grid;
+
+    grid-template-columns: 70px 1fr auto;
+
+    align-items: center;
+    gap: 20px;
+
+    padding: 24px;
+
+    background-color: #FFFFFF;
+    color: #222222;
+
+    border-left: 8px solid #8B4B30;
+    border-radius: 14px;
+
+    box-shadow:
+        0 8px 20px rgba(0, 0, 0, 0.12);
+
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
+}
+
+.tarjeta-documento:hover {
+    transform: translateY(-5px);
+
+    box-shadow:
+        0 14px 28px rgba(0, 0, 0, 0.18);
+}
+
+.icono-documento {
+    font-size: 43px;
+    text-align: center;
+}
+
+.informacion-documento h2 {
+    margin: 0 0 8px;
+
+    color: #8B4B30;
+    font-size: 24px;
+}
+
+.informacion-documento p {
+    margin: 0;
+
+    color: #444444;
+    line-height: 1.6;
+}
+
+
+/*==================================================
+                BOTÓN DE DOCUMENTO
+==================================================*/
+
+.boton-documento {
+    display: inline-block;
+
+    padding: 12px 20px;
+
+    background-color: #102A43;
+    color: #FFFFFF;
+
+    text-decoration: none;
+    font-weight: bold;
+    white-space: nowrap;
+
+    border-radius: 8px;
+
+    transition:
+        background-color 0.25s ease,
+        transform 0.25s ease;
+}
+
+.boton-documento:hover {
+    background-color: #071A2D;
+
+    transform: translateY(-2px);
+}
+
+
+/*==================================================
+            DOCUMENTOS EN CELULARES
+==================================================*/
+
+@media (max-width: 700px) {
+
+    .pagina-documentos {
+        width: 92%;
+    }
+
+    .pagina-documentos > h1 {
+        font-size: 34px;
+    }
+
+    .tarjeta-documento {
+        grid-template-columns: 1fr;
+
+        text-align: center;
+    }
+
+    .boton-documento {
+        width: 100%;
+
+        box-sizing: border-box;
+    }
+
+}
+
+
+/*==================================================
+                    GALERÍA
+==================================================*/
+
+.pagina-galeria {
+    width: 92%;
+    max-width: 1250px;
+
+    margin: 30px auto 70px;
+}
+
+.pagina-galeria > h1 {
+    margin-bottom: 15px;
+
+    color: #7B2F1C;
+    font-size: 42px;
+    text-align: center;
+
+    text-shadow: none;
+}
+
+.introduccion-galeria {
+    max-width: 850px;
+
+    margin: 0 auto 45px;
+
+    color: #333333;
+    font-size: 19px;
+    line-height: 1.7;
+    text-align: center;
+}
+
+
+/*==================================================
+              CUADRÍCULA DE FOTOGRAFÍAS
+==================================================*/
+
+.cuadricula-galeria {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 24px;
+}
+
+
+/*==================================================
+                CADA FOTOGRAFÍA
+==================================================*/
+
+.foto-galeria {
+    position: relative;
+
+    margin: 0;
+
+    height: 290px;
+
+    overflow: hidden;
+
+    background-color: #FFFFFF;
+
+    border-radius: 16px;
+
+    box-shadow:
+        0 8px 22px rgba(0, 0, 0, 0.14);
+}
+
+.foto-galeria img {
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    transition:
+        transform 0.35s ease,
+        filter 0.35s ease;
+}
+
+.foto-galeria:hover img {
+    transform: scale(1.06);
+
+    filter: brightness(0.72);
+}
+
+
+/*==================================================
+             TEXTO SOBRE LA FOTOGRAFÍA
+==================================================*/
+
+.foto-galeria figcaption {
+    position: absolute;
+
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    padding: 18px 16px;
+
+    background:
+        linear-gradient(
+            transparent,
+            rgba(0, 0, 0, 0.82)
+        );
+
+    color: #FFFFFF;
+
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+
+    transform: translateY(100%);
+
+    transition: transform 0.3s ease;
+}
+
+.foto-galeria:hover figcaption {
+    transform: translateY(0);
+}
+
+
+/*==================================================
+              GALERÍA EN TABLETAS
+==================================================*/
+
+@media (max-width: 950px) {
+
+    .cuadricula-galeria {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+/*==================================================
+              GALERÍA EN CELULARES
+==================================================*/
+
+@media (max-width: 600px) {
+
+    .pagina-galeria {
+        width: 92%;
+    }
+
+    .pagina-galeria > h1 {
+        font-size: 34px;
+    }
+
+    .cuadricula-galeria {
+        grid-template-columns: 1fr;
+    }
+
+    .foto-galeria {
+        height: 260px;
+    }
+
+    .foto-galeria figcaption {
+        transform: translateY(0);
+    }
+
+}
