@@ -444,6 +444,13 @@ body{
     line-height: 1.8;
 }
 
+
+/* SEPARACIÓN ENTRE AVISOS */
+
+.avisos > .aviso {
+    margin-bottom: 40px;
+}
+
 /* BOTÓN PARA VOTAR POR LA MASCOTA */
 
 .boton-votacion {
