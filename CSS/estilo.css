@@ -474,6 +474,18 @@ body{
     transform: translateY(-3px);
 }
 
+/* IMÁGENES DE LOS AVISOS */
+
+.imagen-aviso {
+    display: block;
+    width: 100%;
+    max-width: 850px;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 12px;
+    object-fit: contain;
+}
+
 /*==================================================
                     CONTACTO
 ==================================================*/
